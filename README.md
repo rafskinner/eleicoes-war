@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-## Instalation
+## Installation
 
 Dowload the latest version of node.js. With node.js and npm installed, run `npm install -g @angular/cli` to install Angular CLI globally.
 
