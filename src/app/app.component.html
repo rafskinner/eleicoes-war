@@ -1,13 +1,17 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper grey darken-4">
-      <a href="#" class="brand-logo">Eleições War</a>
+      <a style="margin-left: 8px;" routerLink="" class="brand-logo">Eleições War</a>
       <ul class="right hide-on-med-and-down">
         <li>
-          <a href="#">Candidatos</a>
+          <a routerLink="/candidatos" class="waves-effect waves-light btn-large grey darken-4 z-depth-0">
+            Candidatos
+          </a>
         </li>
         <li>
-          <a href="#">Boca de Urna</a>
+            <a routerLink="/boca-urna" class="waves-effect waves-light btn-large grey darken-4 z-depth-0">
+              Boca de Urna
+            </a>
         </li>
       </ul>
     </div>
@@ -30,4 +34,4 @@
 
 <br>
 
-<app-homepage></app-homepage>
+<router-outlet></router-outlet>
